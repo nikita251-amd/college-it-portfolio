@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио IT-отдела колледжа</title>
+    <link rel="stylesheet" href="работа в команде/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка (Header) -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">IT-Отдел Колледжа</h1>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#projects">Наши проекты</a></li>
+                        <li><a href="#team">Команда</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Меню">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main class="main">
+        <!-- Секция "Наши проекты" -->
+        <section id="projects" class="section projects">
+            <div class="container">
+                <h2 class="section-title">Наши проекты</h2>
+                <div class="projects-grid">
+                    <!-- Карточка проекта 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="./images/project1.png" alt="Веб-приложение для учёта студентов">
+                        </div>
+                        <div class="project-info">
+                            <h3>Студенческий кабинет</h3>
+                            <p>Веб-приложение для учёта успеваемости и расписания студентов.</p>
+                            <a href="#" class="project-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                   
+                    <!-- Карточка проекта 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="./images/project3.png" alt="Сайт библиотеки колледжа">
+                        </div>
+                        <div class="project-info">
+                            <h3>Электронная библиотека</h3>
+                            <p>Онлайн-платформа с учебными материалами и электронными книгами.</p>
+                            <a href="#" class="project-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция "Команда" -->
+        <section id="team" class="section team">
+            <div class="container">
+                <h2 class="section-title">Наша команда</h2>
+                <div class="team-grid">
+                    <!-- Карточка участника 1 -->
+                    <div class="team-card">
+                        <div class="team-photo">
+                            <img src="./images/team1.jpg" alt="Анастасия Шульгина">
+                        </div>
+                        <div class="team-info">
+                            <h3>Анастасия Шульгина</h3>
+                            <p>Frontend-разработчик</p>
+                            <p>Отвечает за вёрстку и пользовательский интерфейс.</p>
+                        </div>
+                    </div>
+                    <!-- Карточка участника 2 -->
+                    <div class="team-card">
+                        <div class="team-photo">
+                            <img src="./images/team2.jpg" alt="Владислав Чабин">
+                        </div>
+                        <div class="team-info">
+                            <h3>Владислав Чабин</h3>
+                            <p>Backend-разработчик</p>
+                            <p>Создаёт серверную логику и API для проектов.</p>
+                        </div>
+                    </div>
+                    <!-- Карточка участника 3 -->
+                    <div class="team-card">
+                        <div class="team-photo">
+                            <img src="./images/team3.jpg" alt="Никита Чуркин">
+                        </div>
+                        <div class="team-info">
+                            <h3>Никита Чуркин</h3>
+                            <p>Дизайнер/Куратор</p>
+                            <p>Проектирует интерфейсы и координирует работу команды.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер (Footer) -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>IT-Отдел Колледжа</h3>
+                    <p>Мы создаём инновационные решения для образования.</p>
+                    <p>© 2023 Все права защищены.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Контакты</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> it-department@college.example</li>
+                        <li><i class="fas fa-phone"></i> +7 (3467) 02 10 25</li>
+                        <li><i class="fas fa-map-marker-alt"></i> г. Белоярский, квартал Спортивный, д. 1</li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Мы в соцсетях</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="VK"><i class="fab fa-vk"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Подключение скриптов -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
